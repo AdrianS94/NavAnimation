@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 
 :root {
-  --primaryColor: rgb(255, 255, 255);
+  --primaryColor: #fff;
   --navColor1: #21292c;
   --navColor2: #aa3e39;
   --navColor3: #aa6e39;
@@ -21,7 +21,7 @@ body {
 
 /* --- Navigation Menu ------------------------------ */
 
-/* --- Overlay  ------------------------------ */
+/* Overlay */
 .overlay {
   position: fixed;
   z-index: 9;
@@ -43,7 +43,7 @@ body {
   transform: translateX(-100vw);
 }
 
-/* --- Nav menu items  ------------------------------ */
+/* Nav Menu Items */
 nav,
 nav ul {
   height: 100vh;
@@ -96,32 +96,40 @@ nav li a:hover::before {
 nav li:nth-of-type(1) {
   background-color: var(--navColor1);
 }
+
 nav li:nth-of-type(2) {
   background-color: var(--navColor2);
 }
+
 nav li:nth-of-type(3) {
   background-color: var(--navColor3);
 }
+
 nav li:nth-of-type(4) {
   background-color: var(--navColor4);
 }
+
 nav li:nth-of-type(5) {
   background-color: var(--navColor5);
 }
 
-/* --- Slide in animation with delay for each nav item - */
+/* Slide in animation with delay for each */
 .slide-in-1 {
   animation: slide-in 0.4s linear 0.2s both;
 }
+
 .slide-in-2 {
   animation: slide-in 0.4s linear 0.4s both;
 }
+
 .slide-in-3 {
   animation: slide-in 0.4s linear 0.6s both;
 }
+
 .slide-in-4 {
   animation: slide-in 0.4s linear 0.8s both;
 }
+
 .slide-in-5 {
   animation: slide-in 0.4s linear 1s both;
 }
@@ -136,19 +144,23 @@ nav li:nth-of-type(5) {
   }
 }
 
-/* --- Slide out animation with delay for each nav item - */
+/* Slide out animation with delay for each */
 .slide-out-1 {
   animation: slide-out 0.3s linear 0.5s both;
 }
+
 .slide-out-2 {
   animation: slide-out 0.3s linear 0.4s both;
 }
+
 .slide-out-3 {
   animation: slide-out 0.3s linear 0.3s both;
 }
+
 .slide-out-4 {
   animation: slide-out 0.3s linear 0.2s both;
 }
+
 .slide-out-5 {
   animation: slide-out 0.3s linear 0.1s both;
 }
@@ -214,7 +226,7 @@ section {
 }
 
 section#home {
-  background-image: url("https://images.unsplash.com/photo-1610595062947-88399a1b9c10?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2201&q=80");
+  background-image: url("https://images.unsplash.com/photo-1439405326854-014607f694d7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80");
   background-size: cover;
   background-position: center center;
 }
